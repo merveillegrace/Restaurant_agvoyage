@@ -1,0 +1,73 @@
+
+body{
+    background-color:palegreen !important;
+    color: white;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+/*header,nav,section,footer {
+    background-color:black !important;
+    color: white;
+}
+    */
+.section-hero {
+    background-image: url("image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+text-align: center;
+    background-color: rgba(red, green, blue, alpha);
+    padding: 30px;
+}
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+/*#A PROPPOS img {
+width: 100%;
+height: 100%;
+display: flex;
+background-position: center;
+background-size:cover ;
+justify-content: center;
+align-items: center;
+text-align: center;
+}*/
+
+.footer{
+    background-color: #111;
+     width: 100%;
+}
+.footer p{
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.icôns-associes a {
+font-size: 25px;
+text-decoration: none;
+transition: 0.5s;
+}
+.icôns-associes a {
+    color: orange !important;
+}
+ #apropos.image-apropos img{
+    width: 100%;
+    height: 100%;
+    min-height: 450px;
+    object-fit: cover;
+    display: block;
+}
+ #apropos.image-apropos{
+    padding: 0;
+}
